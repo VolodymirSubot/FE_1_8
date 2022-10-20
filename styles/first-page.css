@@ -18,11 +18,12 @@
  font-size: 26px;
  line-height: 31px;
  letter-spacing: 0.03em;
+ text-decoration: none;
 }
 
 .heading-text {
+    color: #000;
     text-decoration: none;
-    color: #000000;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -276,14 +277,25 @@
 }
 
 .card-body i {
+    position: relative;
+    left: 34px;
     display: inline-block;
-    padding-left: 44px;
-    color: #AFB1B8;
-    width: 20px;
-    height: 20px;
+    color: #AFB1B8; 
+    margin-left: 24px;
 }
 
 i:hover {
+ transition: 50ms;
  color: #FFFFFF;
- background-color: #2196F3;
+ border: #2196F3 6px solid;
+ border-radius: 200px 200px;
+ background: #2196f3;
+}
+
+.fifth-main-ul {
+    list-style-type: none;
+}
+
+.fifth-main-img {
+ fill: #2196F3;
 }
